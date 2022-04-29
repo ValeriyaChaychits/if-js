@@ -75,7 +75,7 @@ function palindrome(str) {
   return newStr === str;
 }
 
-console.log(palindrome('alla'))
+console.log(palindrome('alla'));
 
 const min = function (a, b) {
   if (a < b) {
@@ -84,13 +84,13 @@ const min = function (a, b) {
   return b;
 };
 
-console.log(min(46, 6464))
+console.log(min(46, 6464));
 
 const min2 = function (a, b) {
   return a < b ? a : b;
 };
 
-console.log(min2(46, 6464))
+console.log(min2(46, 6464));
 
 const max = function (a, b) {
   if (a < b) {
@@ -99,13 +99,13 @@ const max = function (a, b) {
   return a;
 };
 
-console.log(max(46, 6464))
+console.log(max(46, 6464));
 
 const max2 = function (a, b) {
   return a < b ? b : a;
 };
 
-console.log(max2(46, 6464))
+console.log(max2(46, 6464));
 
 const arr = [0, 5, 16, 24, 30, 40, 57, 70, 80, 100];
 
