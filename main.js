@@ -51,7 +51,6 @@ array = [2, 5, 8, 15, 0, 6, 20, 3];
 
 for (let i = 0; i < array.length; i++) {
   if (array[i] > 5 && array[i] < 10) {
-    result = array[i];
     console.log(array[i]);
   }
 }
@@ -60,7 +59,6 @@ console.log('---------');
 
 for (let i = 0; i < array.length; i++) {
   if (array[i] % 2 === 0 && array[i] > 0) {
-    result = array[i];
     console.log(array[i]);
   }
 }
