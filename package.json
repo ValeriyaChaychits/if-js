@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install",
-    "lint": "prettier --write . && eslint main.js --fix"
+    "lint": "prettier --write . && eslint src/main.js --fix",
+    "prepublish": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,13 @@
   },
   "homepage": "https://github.com/ValeriyaChaychits/if-js#readme",
   "devDependencies": {
-    "eslint": "^8.13.0",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@ngneat/falso": "^5.2.1",
+    "babel-jest": "^28.1.0",
+    "eslint": "^8.14.0",
     "husky": "^7.0.4",
+    "jest": "^28.1.0",
     "prettier": "2.6.2"
   }
 }
