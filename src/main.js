@@ -1,10 +1,4 @@
-import { changeColor } from './module.js';
-
-// export const sum = function (a) {
-//   return function (b) {
-//     return a + b;
-//   };
-// };
+import { changeColor } from './changeColorFunc.js';
 
 const first = document.getElementById('text1');
 const second = document.getElementById('text2');
