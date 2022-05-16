@@ -7,7 +7,7 @@
     "test": "jest",
     "prepare": "husky install",
     "lint": "prettier --write . && eslint src/main.js --fix",
-    "prepublish": "npm run lint && npm test"
+    "prepublish": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "eslint": "^8.14.0",
     "husky": "^7.0.4",
     "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "prettier": "2.6.2"
   }
 }
