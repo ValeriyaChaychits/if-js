@@ -173,12 +173,11 @@ export function funcHotelsList(searchWord) {
 
 console.log(funcHotelsList('Ibiza'));
 
-
-export const countryCityFunc = hotels.reduce(function(result, item) {
+export const countryCityFunc = hotels.reduce(function (result, item) {
   return {
     ...result,
     [item.country]: [...(result?.[item.country] || []), item.city],
-  }
+  };
 }, {});
 
 console.log(countryCityFunc);
